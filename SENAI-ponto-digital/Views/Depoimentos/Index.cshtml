@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Depoimentos - Agora Vai";
+    ViewData["H2"] = "Depoimentos";
+}
+<header class="menuNavegacao">
+    @{
+        Html.RenderPartial("_HeaderNavBar");
+    }
+</header>
+
+<main>
+    <h2>@ViewData["H2"]</h2>
+    <form method="POST" action='@Url.Action("CadastroDepoimentos", "Depoimentos")'>
+        <div>
+            <label for="nome">Nome</label>
+            <br />
+            <input id="nome" type="text" maxlength="20" minlength="3" name="nome" />
+        </div>
+
+        <div>
+            <label for="texto">Comentário</label>
+            <br>
+            <textarea name="depoimentos" id="depoimentos" cols="50" rows="10"></textarea>
+        </div>
+
+        <div class="submit">
+            <input type="submit" value="Enviar">
+        </div>
+
+    </form>
+
+</main>

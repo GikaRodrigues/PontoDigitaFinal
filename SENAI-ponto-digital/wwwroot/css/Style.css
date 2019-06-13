@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.menuNavegacao{
+    background-color: #ff9933;
+    position: fixed;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.menuNavegacao ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+.menuNavegacao a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    padding: 20px;
+}
+.logo{
+    background-image: url(../img/img-banner-site-tecnologia.png);
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.logo h1{
+    font-size: 30px;
+    color: #fff;
+}
+.headOfMain{
+    padding-bottom: 250px;
+    background-color: rgb(238, 238, 238);
+}
+.menssagem{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.menssagem h2{
+    font-size: 35px;
+}
+.titleDestaques{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+}
+.titleDestaques h3{
+    font-size: 50px;
+    padding-top: 60px;
+}
+.containerDestaques{
+    background-color: pink;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 55px;
+    padding-bottom: 20px;
+}
+.containerDestaques h4{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.imgDestaques{
+    padding-top: 30px;
+}
+.titleBeneficios{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.titleBeneficios h3{
+    font-size: 50px;
+    padding-top: 60px;
+}
+.containerBeneficios{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.containerBeneficios p{
+    font-size: 25px;
+    width: 300px;
+    text-align: center;
+    padding-top: 25px;
+    margin: auto;
+}
+.containerBeneficios h4{
+    width: 300px;
+    height: 60px;;
+    font-size: 40px;
+    text-align: center;
+}
+.descricao{
+    background-color: rgb(0, 183, 255);
+}
+.titleHistoria{
+    background-color: rgb(0, 255, 170);
+    display: flex;
+    justify-content: center;
+}
+.titleHistoria h3{
+    font-size: 50px;
+    padding-top: 60px;
+}
+.containerHistoria{
+    background-color:  rgb(0, 255, 170);
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.containerHistoria p{
+    font-size: 25px;
+    width: 850px;
+    margin: auto;
+}
+.fotoDoPatrao{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 255, 170);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.titleEmpresa{
+    display: flex;
+    justify-content: center;
+}
+.titleEmpresa h3{
+    font-size: 50px;
+    padding-top: 60px;
+}
+.imgEmpresa{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.titlePlano{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+.titlePlano h3{
+    font-size: 50px;
+    padding-top: 60px;
+}
+.containerPlanos{
+    background-color: blueviolet;
+}
+.planos{
+    font-size: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.planos tr{
+    background-color: rgb(255, 255, 255);
+}
+.planos th{
+padding-left: 15px;
+padding-right: 15px;
+}
+.planos td{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    text-align: center;
+}
+table{
+    margin: auto;
+}
+.titleLocal{
+    background-color: rgb(214, 214, 214);
+    display: flex;
+    justify-content: center;
+}
+.titleLocal h3{
+    font-size: 50px;
+    padding-top: 60px;
+}
+.back{
+    background-color: rgb(214, 214, 214);
+}
+.mapa{
+    width: 1000px;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.mapa iframe{
+    width: 100%;
+}
+.imglogo1{
+    display: flex;
+    justify-content: center;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+}
+.h2_login{
+    font-size: 70px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.h2_cadastro{
+    font-size: 70px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.login{
+    width: 300px;
+    height: 250px;
+    padding: 40px;
+}
+.email_senha{
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+}
+.email_senha input{
+    width: 310px;
+    height: 22px;
+    display: flex;
+    justify-content: flex-end;
+}
+.bt_login{
+    margin-top: 7px;
+}
+.bt_login input{
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+}
+.Cadastro{
+    width: 500px;
+    height: 400px;
+    padding: 50px;
+    margin-left: 100px;
+}
+.cadastrar label{
+    font-size: 25px;
+}
+.cadastrar input{
+    width: 390px;
+    height: 21px;;
+}
+
+.bt_cadastro{
+    margin-top: 7px;
+}
+#link-cadastro{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 50px;
+    text-align: center;
+}
+.form{
+    height: 510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sucesso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    font-size: 40px;
+}
+.footer{
+    padding-top: 50px;
+}

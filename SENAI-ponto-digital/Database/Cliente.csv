@@ -1,0 +1,4 @@
+id=1;nome=Administrador;email=admin@agoravai.com;senha=admin;endereco=Rua admd;telefone=99999-9999;data_nascimento=16/03/1980 00:00:00
+id=2;nome=Giovanni R Morais;email=giovanni@gmail.com;senha=1234;endereco=Rua shallow;telefone=96378-9482;data_nascimento=06/05/2003 00:00:00
+id=3;nome=teste;email=t@gmail.com;senha=12234;endereco=Rua teste;telefone=90000-0000;data_nascimento=30/06/2019 00:00:00
+id=4;nome=teste;email=f@gmail.c;senha=1234;endereco=Rua teste;telefone=90000-0000;data_nascimento=19/06/2019 00:00:00
